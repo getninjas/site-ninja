@@ -1,7 +1,8 @@
 {
   "name": "site-ninja",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "private": true,
+  "bin": "./site-ninja.js",
   "dependencies": {
     "axios": "0.21.1",
     "darrius": "getninjas/darrius#hackday-nagato-teste",
@@ -15,5 +16,8 @@
     "react-i18next": "11.8.15",
     "tagmanager-wrap": "4.0.1",
     "winston": "3.3.3"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
   }
 }
