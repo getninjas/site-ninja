@@ -1,7 +1,8 @@
 {
   "name": "site-ninja-prod",
-  "version": "1.0.2",
-  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
   "dependencies": {
     "axios": "0.21.1",
     "darrius": "getninjas/darrius#hackday-nagato-teste",
