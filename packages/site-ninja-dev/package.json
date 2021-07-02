@@ -2,7 +2,7 @@
   "name": "site-ninja-dev",
   "version": "1.0.2",
   "main": "index.js",
-  "private": "true",
+  "private": true,
   "license": "MIT",
   "dependencies": {
     "jest": "^27.0.6"
