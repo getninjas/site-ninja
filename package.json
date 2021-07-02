@@ -2,7 +2,10 @@
   "name": "site-ninja",
   "version": "1.1.0",
   "private": true,
-  "bin": "./site-ninja.js",
+  "bin": "./bin/site-ninja.js",
+  "scripts": {
+    "build": "rollup -c --banner '#!/usr/bin/env node'"
+  },
   "dependencies": {
     "axios": "0.21.1",
     "darrius": "getninjas/darrius#hackday-nagato-teste",
@@ -18,6 +21,10 @@
     "winston": "3.3.3"
   },
   "devDependencies": {
-    "jest": "^27.0.6"
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "jest": "^27.0.6",
+    "rollup": "^2.52.7"
   }
 }
